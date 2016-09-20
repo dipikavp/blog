@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - Ruby 2.3.1p112
 
-Things you may want to cover:
+* Rails version - Rails 5.0.0.1
 
-* Ruby version
+## Features in my Blog
 
-* System dependencies
+ - Posts
+    - Create / Edit / Destroy
+    - Markdown
+    - Syntax Highlighting
+    - Comments(Disqus)
 
-* Configuration
+ - Projects
+    - Create / Edit / Destroy
 
-* Database creation
+ - Contact
+    - Contact form
+    - Sendgrid(for emails)
 
-* Database initialization
+ - User(Devise)
 
-* How to run the test suite
+## Pages in the Blog
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Home
+ - Posts#index
+ - Posts#show
+ - Project#index
+ - Project#show
+ - Contact
