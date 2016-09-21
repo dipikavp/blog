@@ -1,0 +1,71 @@
+.col-1, .col-2, .col-3{
+  float: left;
+}
+
+.col-1{
+  width:45%;
+  padding: 0 5% 0 2%
+}
+
+.col-2, .col-3{
+  width:27.5%;
+  padding: 5% 2.5%
+}
+
+.homepage_content{
+  h2{
+    font-size:  0.7rem;
+    text-transform: uppercase;
+  }
+
+  h3{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: .5em;
+  }
+  a{
+    text-decoration: none;
+    color: $dark;
+    &:hover{
+      color: $highlight;
+    }
+  }
+
+  .date{
+    font-size: .5em;
+    margin-bottom: 2em;
+    color: $light;
+  }
+
+  p{
+    margin: 0 0 .75em 0;
+  }
+
+}
+
+.profile_picture{
+  padding-left: 4.5rem;
+}
+
+.about{
+  padding: 0 7.5% 0 5%;
+  a{
+    color: $highlight;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  h2{
+    padding-left: 35%;
+    padding-top: 5%;
+  }
+  hr{
+    margin-left: 8rem;
+    margin-top: 1.3rem;
+
+  }
+
+  p{
+   margin-left: 0;
+  }
+
+}

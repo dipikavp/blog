@@ -1,0 +1,113 @@
+#post_wrapper{
+  padding: 3em o;
+  .post{
+      text-align: center;
+      padding-top: 2em;
+    .date{
+      font-size: .3em;
+      margin: 0;
+    }
+
+    h2{
+      font-size: 1em;
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 1em;
+      a{
+        text-decoration: none;
+        color: $dark;
+        &:hover{
+          color: $highlight;
+        }
+      }
+    }
+    hr{
+      margin: 2em auto;
+    }
+  }
+
+}
+//--------Post Show
+  #post_show_content{
+    header{
+      text-align: center;
+      .date{
+        font-size: .8em;
+        color: $light;
+        margin: 0;
+
+      }
+      h1{
+        margin: 0;
+      }
+
+    }
+    hr{
+      margin: 2em auto;
+
+    }
+  }
+
+  #share_box{
+    text-align: center;
+    p{
+      padding: 1em 0 1em 0;
+      margin: 0;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: $dark;
+      font-size: .6em;
+    }
+    i{
+      color: $dark;
+      padding: 1em 1em;
+      &:hover{
+        color: $highlight;
+        cursor: pointer;
+      }
+    }
+  }
+
+//-------- Pagination
+
+.pagination:before, .pagination:after{
+  content: " ";
+  display: table;
+}
+.pagination:after{
+  clear: both;
+}
+.pagination{
+  text-align: center;
+  margin: 0 0 3em 0;
+  a, .previous_page, .current, .next_page{
+    padding: 0.75em 1em;
+    margin: 0 0.5em;
+    border-radius: .15em;
+    line-height: 20px;
+    text-decoration: none;
+    background: $white;
+    font-weight: 500;
+    font-size: .5em;
+    font-style: normal;
+    color: $dark;
+    &:hover{
+      background: $highlight;
+      color: $white;
+    }
+  }
+
+  .current{
+    background: $highlight;
+    color: $white;
+  }
+
+  .disabled{
+    color: #C0C0C0;
+    &:hover{
+      background: #C0C0C0;
+      color: $white;
+    }
+  }
+
+}
