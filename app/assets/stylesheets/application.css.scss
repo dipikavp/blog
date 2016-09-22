@@ -1,10 +1,15 @@
 @import 'normalize';
-
+@font-face {
+  font-family: "LosBlauErreur";
+  src: url(/assets/LosBlauErreur.ttf) format("truetype");
+}
 $dark: #424652;
 $light: #9a9da4;
-$highlight: #a3dddf;
+$highlight: #FF9993;
 $border: #E9E9E9;
 $white: #ffffff;
+$header: #FFC1BF;
+
 
 *{
   box-sizing: border-box;
@@ -74,7 +79,7 @@ p, ul,ol{
    margin: 0 0 1.6em 0
 }
 hr{
-  width: 2rem;
+  width: 3rem;
   display: block;
   height: 2px;
   border: 0;
@@ -92,11 +97,13 @@ hr{
 #main_navigation{
   padding: 1.5em 5%;
   border-bottom: 1px solid $border;
+  background-color: $header;
   .name {
     font-weight: 550;
-    font-size: .5em;
+    font-family: LosBlauErreur;
+    font-size: 1em;
     letter-spacing: 4px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     border: 2px solid $border;
     padding: 1rem;
     text-decoration: none;

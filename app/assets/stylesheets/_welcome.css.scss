@@ -1,3 +1,4 @@
+$github: #87D37C;
 .col-1, .col-2, .col-3{
   float: left;
 }
@@ -50,16 +51,16 @@
 .about{
   padding: 0 7.5% 0 5%;
   a{
-    color: $highlight;
+    color: $github;
     font-weight: 600;
     text-decoration: none;
   }
   h2{
-    padding-left: 35%;
+    padding-left: 30%;
     padding-top: 5%;
   }
   hr{
-    margin-left: 8rem;
+    margin-left: 7.5rem;
     margin-top: 1.3rem;
 
   }
@@ -67,5 +68,6 @@
   p{
    margin-left: 0;
   }
+
 
 }

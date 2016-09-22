@@ -1,13 +1,13 @@
 <div class="wrapper wrapper_padding clearfix">
   <div class="col-1 about homepage_content">
     <%= image_tag("/assets/profile_pic.png", class:"profile_picture")%>
-    <h2>About</h2>
+    <h2>About Me</h2>
     <hr/>
     <p>
       Hi! I'm a developer and aspiring web designer who recently graduated . Learning and living in Hayward, California.
     </p>
-    <p>
-      You can 'git' (sorry..) to see some of my work on Github at
+    <p >
+      You can git to see some of my work on Github at
     </p>
     <p>
       <a href="#">https://github.com/dipikavp</a>
@@ -15,7 +15,7 @@
   </div>
 
 <div class="col-2 homepage_content">
-  <h2>Stuff I've Written</h2>
+  <h2>Stuff I'm Learning</h2>
   <hr/>
   <% @posts.each do |post| %>
   <h3><a href="#"><%=link_to post.title, post%></a></h3>
@@ -23,7 +23,7 @@
   <% end %>
 </div>
 <div class="col-3 homepage_content">
-  <h2>Stuff I've Built</h2>
+  <h2>Stuff I've Made</h2>
   <hr>
   <% @projects.each do |project| %>
   <h3><a href="#"><%=link_to project.title, project%></a></h3>
