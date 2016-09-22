@@ -34,6 +34,7 @@ gem 'rdoc'
 gem "mail_form", ">= 1.3.0"
 gem 'actionmailer', '~> 5.0.0'
 gem 'activemodel', '~> 5.0.0'
+gem 'devise', '~> 4.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
