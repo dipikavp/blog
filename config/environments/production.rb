@@ -82,7 +82,7 @@ Rails.application.configure do
     :domain               =>'heroku.com',
     :enable_starttls_auto => true
   }
-  end
+  
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
