@@ -32,7 +32,7 @@
     header{
       text-align: center;
       .date{
-        font-size: .8em;
+        font-size: 0.8em;
         color: $light;
         margin: 0;
 
@@ -45,6 +45,9 @@
     hr{
       margin: 2em auto;
 
+    }
+    p{
+      font-size: 1em;
     }
   }
 
